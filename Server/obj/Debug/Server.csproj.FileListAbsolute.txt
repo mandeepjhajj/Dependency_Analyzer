@@ -1,0 +1,6 @@
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\Server\bin\Debug\Server.exe.config
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\Server\bin\Debug\Server.exe
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\Server\bin\Debug\Server.pdb
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\Server\obj\Debug\Server.exe
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\Server\obj\Debug\Server.pdb

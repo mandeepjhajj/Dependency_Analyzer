@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BODY>
+  <Type>
+    <FILE Name="Name=&quot;C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\FawcettHelp\DemoExample\FileMgr\FileMgr.cs&quot;">
+      <ANALYSIS NameSpace="CodeAnalysis" Type="namespace" TypeName="CodeAnalysis" Begin="16" End="56" LOC="40" />
+      <ANALYSIS NameSpace="CodeAnalysis" Type="class" TypeName="FileMgr" Begin="18" End="55" LOC="37" />
+      <ANALYSIS NameSpace="CodeAnalysis" Type="function" TypeName="findFiles" Begin="23" End="34" LOC="11" />
+      <ANALYSIS NameSpace="CodeAnalysis" Type="function" TypeName="addPattern" Begin="36" End="39" LOC="3" />
+      <ANALYSIS NameSpace="CodeAnalysis" Type="function" TypeName="getFiles" Begin="41" End="44" LOC="3" />
+      <ANALYSIS NameSpace="CodeAnalysis" Type="function" TypeName="Main" Begin="48" End="54" LOC="6" />
+    </FILE>
+  </Type>
+</BODY>

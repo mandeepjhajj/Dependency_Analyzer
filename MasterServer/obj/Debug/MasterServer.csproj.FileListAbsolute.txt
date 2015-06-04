@@ -1,0 +1,6 @@
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\MasterServer\bin\Debug\MasterServer.exe.config
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\MasterServer\bin\Debug\MasterServer.exe
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\MasterServer\bin\Debug\MasterServer.pdb
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\MasterServer\obj\Debug\MasterServer.exe
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\MasterServer\obj\Debug\MasterServer.pdb
+C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\DependencyAnalyzer\MasterServer\obj\Debug\MasterServer.csprojResolveAssemblyReference.cache

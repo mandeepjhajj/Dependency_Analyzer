@@ -1,0 +1,76 @@
+﻿<Window x:Class="DependencyAnalyzer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Unloaded="Window_Unloaded"
+        Title="Dependency Analyzer Client" Height="350" Width="525">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="310" Margin="10,0,0,0" VerticalAlignment="Top" Width="497">
+            <TabItem Header="Servers">
+                <Grid Background="#FFE5E5E5" Margin="0,2,0,-2">
+                    <ListView   Name="displayServer" HorizontalAlignment="Left" Height="175" Margin="235,36,0,0" VerticalAlignment="Top" Width="223">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn/>
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Label Content="Connected Servers" HorizontalAlignment="Left" Margin="328,13,0,0" VerticalAlignment="Top" Width="116"/>
+                    <Label Content="Add A New Server" HorizontalAlignment="Left" Margin="55,18,0,0" VerticalAlignment="Top" Width="116"/>
+                    <Label Content="Host Name" HorizontalAlignment="Left" Margin="6,49,0,0" VerticalAlignment="Top" Width="91"/>
+                    <Label Content="Port" HorizontalAlignment="Left" Margin="10,80,0,0" VerticalAlignment="Top" Width="91"/>
+                    <TextBox Name="hostname" HorizontalAlignment="Left" Height="23" Margin="87,52,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <TextBox Name="port" HorizontalAlignment="Left" Height="23" Margin="88,83,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+                    <Button Content="Connect" HorizontalAlignment="Left" Name="AServer" Margin="137,131,0,0" VerticalAlignment="Top" Width="75" Click="AddServer"/>
+                    <Button Content="Get Projects" HorizontalAlignment="Left" Name="getProject" Margin="348,219,0,0" VerticalAlignment="Top" Width="75" Click="GetProjects"/>
+                    <Button Content="Add To List" HorizontalAlignment="Left" Name="S_List" Margin="256,219,0,0" VerticalAlignment="Top" Width="75" Click="ServerList"/>
+                    <Button Content="Listen" HorizontalAlignment="Left" Name="ListenMe" Margin="26,131,0,0" VerticalAlignment="Top" Width="75" Click="ListenIT"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="ShowProjects">
+                <Grid Background="#FFE5E5E5" Margin="0,2,0,-2">
+                    <ListView   ItemsSource="{Binding Serverlist}" Name="displayProjects" HorizontalAlignment="Left" Height="175" Margin="37,10,0,0" VerticalAlignment="Top" Width="420">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Server" Width="200" DisplayMemberBinding ="{Binding servername}" />
+                                <GridViewColumn Header="Project" Width="100" DisplayMemberBinding ="{Binding projectname}"  />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+
+                    <Button Content="Get TypeAnalysis" HorizontalAlignment="Left" Name="getType" Margin="61,219,0,0" VerticalAlignment="Top" Width="167" Click="GetDependencies"/>
+
+                </Grid>
+            </TabItem>
+            <TabItem Header="ShowTypeDependency">
+                <Grid Background="#FFE5E5E5" Margin="0,2,0,-2">
+                    <ListView   ItemsSource="{Binding TypeList}" Name="displayTypeAnalysis" HorizontalAlignment="Left" Height="175" Margin="10,10,0,0" VerticalAlignment="Top" Width="467">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="NameSpace1" Width="80" DisplayMemberBinding ="{Binding namesp1}" />
+                                <GridViewColumn Header="Type1" Width="70" DisplayMemberBinding ="{Binding type1}"  />
+                                <GridViewColumn Header="Relation" Width="70" DisplayMemberBinding ="{Binding typenm}" />
+                                <GridViewColumn Header="NameSpace2" Width="80" DisplayMemberBinding ="{Binding namesp2}" />
+                                <GridViewColumn Header="Type2" Width="70" DisplayMemberBinding ="{Binding type2}" />
+                                <GridViewColumn Header="Filename" Width="100" DisplayMemberBinding ="{Binding filenm}" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                    <Button Content="Get Package Dependencies" HorizontalAlignment="Left" x:Name="getDepend" Margin="159,219,0,0" VerticalAlignment="Top" Width="167" Click="GetDepend"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="PackageDependency">
+                <Grid Background="#FFE5E5E5" Margin="0,2,0,-2">
+                    <ListView   ItemsSource="{Binding TypeList}" Name="displayPackage" HorizontalAlignment="Left" Height="175" Margin="10,10,0,0" VerticalAlignment="Top" Width="467">
+                        <ListView.View>
+                            <GridView>
+                                <GridViewColumn Header="Package" Width="200" DisplayMemberBinding ="{Binding filenm}" />
+                                <GridViewColumn Header="DependOn Package" Width="250" DisplayMemberBinding ="{Binding dependnm}" />
+                            </GridView>
+                        </ListView.View>
+                    </ListView>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+
+    </Grid>
+</Window>

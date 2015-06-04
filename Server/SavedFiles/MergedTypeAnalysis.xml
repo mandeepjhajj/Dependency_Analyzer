@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BODY>
+  <Type>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\Analyzer\Analyzer.cs">
+      <ANALYSIS NameSpace="ParserCS" Type="namespace" TypeName="ParserCS" Begin="58" End="218" LOC="160" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="Analyzer" Begin="60" End="143" LOC="83" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="getFile" Begin="67" End="81" LOC="14" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="doAnalysis" Begin="84" End="115" LOC="31" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="FindRelation" Begin="118" End="142" LOC="24" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="TestAnalyzer" Begin="144" End="217" LOC="73" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="ProcessCommandline" Begin="148" End="164" LOC="16" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="ShowCommandLine" Begin="166" End="175" LOC="9" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Main" Begin="180" End="215" LOC="35" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\CommandLineParse\CmdP.cs">
+      <ANALYSIS NameSpace="ParserCS" Type="namespace" TypeName="ParserCS" Begin="55" End="162" LOC="107" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="ParseCmdLine" Begin="57" End="161" LOC="104" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="ParseLine" Begin="65" End="91" LOC="26" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="seperateArguments" Begin="94" End="116" LOC="22" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="addSwitch" Begin="117" End="120" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="addPattern" Begin="122" End="125" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Main" Begin="128" End="159" LOC="31" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\Display\Disp.cs">
+      <ANALYSIS NameSpace="ParserCS" Type="namespace" TypeName="ParserCS" Begin="57" End="336" LOC="279" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DisplayTables" Begin="59" End="251" LOC="192" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="display" Begin="68" End="138" LOC="70" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="displayXML" Begin="141" End="249" LOC="108" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="TestDisplay" Begin="253" End="334" LOC="81" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Main" Begin="325" End="332" LOC="7" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\Executive\Executive.cs">
+      <ANALYSIS NameSpace="ParserCS" Type="namespace" TypeName="ParserCS" Begin="53" End="97" LOC="44" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="Executive" Begin="55" End="96" LOC="41" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Main" Begin="59" End="95" LOC="36" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\FileHandler\FileH.cs">
+      <ANALYSIS NameSpace="ParserCS" Type="namespace" TypeName="ParserCS" Begin="56" End="152" LOC="96" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="CFileMgr" Begin="58" End="151" LOC="93" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="SearchFiles" Begin="64" End="127" LOC="63" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Main" Begin="131" End="149" LOC="18" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\ParserCS\IRuleAndActions.cs">
+      <ANALYSIS NameSpace="ParserCS" Type="namespace" TypeName="ParserCS" Begin="47" End="125" LOC="78" />
+      <ANALYSIS NameSpace="ParserCS" Type="interface" TypeName="IAction" Begin="49" End="53" LOC="4" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="AAction" Begin="57" End="81" LOC="24" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="display" Begin="75" End="80" LOC="5" />
+      <ANALYSIS NameSpace="ParserCS" Type="interface" TypeName="IRule" Begin="85" End="89" LOC="4" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="ARule" Begin="93" End="124" LOC="31" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="ARule" Begin="96" End="99" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="add" Begin="100" End="103" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="doActions" Begin="105" End="109" LOC="4" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="indexOfType" Begin="110" End="123" LOC="13" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\ParserCS\parsing.cs">
+      <ANALYSIS NameSpace="ParserCS" Type="namespace" TypeName="ParserCS" Begin="58" End="187" LOC="129" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="Parser" Begin="60" End="99" LOC="39" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Parser" Begin="64" End="67" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="add" Begin="70" End="73" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="parse" Begin="76" End="87" LOC="11" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="relations" Begin="90" End="98" LOC="8" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="TestParser" Begin="100" End="187" LOC="87" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="ProcessCommandline" Begin="104" End="120" LOC="16" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="ShowCommandLine" Begin="122" End="131" LOC="9" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Main" Begin="138" End="184" LOC="46" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\ParserCS\PremanentRepository.cs">
+      <ANALYSIS NameSpace="ParserCS" Type="namespace" TypeName="ParserCS" Begin="58" End="213" LOC="155" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="RepositoryPermanemt" Begin="60" End="110" LOC="50" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="copyElements" Begin="67" End="102" LOC="35" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="returnPermanentRep" Begin="105" End="108" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="Elements" Begin="113" End="122" LOC="9" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="Relation" Begin="125" End="136" LOC="11" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="storeRel" Begin="139" End="154" LOC="15" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="addRelation" Begin="144" End="147" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="returnRelation" Begin="150" End="153" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="Test" Begin="156" End="212" LOC="56" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Main" Begin="160" End="210" LOC="50" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\ParserCS\RulesAndActions.cs">
+      <ANALYSIS NameSpace="ParserCS" Type="namespace" TypeName="ParserCS" Begin="72" End="1256" LOC="1184" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="Elem" Begin="75" End="94" LOC="19" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="ToString" Begin="83" End="93" LOC="10" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="Repository" Begin="97" End="147" LOC="50" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Repository" Begin="104" End="107" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="getInstance" Begin="109" End="112" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="PushStack" Begin="152" End="212" LOC="60" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="PushStack" Begin="156" End="159" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="doAction" Begin="160" End="211" LOC="51" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="PopStack" Begin="216" End="268" LOC="52" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="PopStack" Begin="220" End="223" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="SearchInherit" Begin="270" End="324" LOC="54" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="SearchInherit" Begin="275" End="279" LOC="4" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="SearchAggregation" Begin="326" End="375" LOC="49" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="SearchAggregation" Begin="330" End="334" LOC="4" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="SearchComposition" Begin="377" End="479" LOC="102" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="SearchComposition" Begin="381" End="385" LOC="4" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="addToRelation" Begin="404" End="439" LOC="35" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="definedRelation" Begin="443" End="478" LOC="35" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="SearchUsing" Begin="481" End="613" LOC="132" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="SearchUsing" Begin="485" End="489" LOC="4" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="usingObjectFunction" Begin="519" End="560" LOC="41" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="usingInFunction" Begin="563" End="612" LOC="49" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="PrintFunction" Begin="618" End="638" LOC="20" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="PrintFunction" Begin="622" End="625" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="display" Begin="626" End="633" LOC="7" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="Print" Begin="642" End="655" LOC="13" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Print" Begin="646" End="649" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectNamespace" Begin="659" End="675" LOC="16" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="test" Begin="661" End="674" LOC="13" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectClass" Begin="679" End="698" LOC="19" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectFunction" Begin="702" End="727" LOC="25" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="isSpecialToken" Begin="704" End="711" LOC="7" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectStruct" Begin="729" End="744" LOC="15" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectEnum" Begin="746" End="761" LOC="15" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectDelegates" Begin="763" End="791" LOC="28" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectAnonymousScope" Begin="797" End="815" LOC="18" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectLeavingScope" Begin="819" End="831" LOC="12" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectBracelessScope" Begin="833" End="860" LOC="27" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="BuildCodeAnalyzer" Begin="863" End="926" LOC="63" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="BuildCodeAnalyzer" Begin="867" End="871" LOC="4" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="build" Begin="877" End="925" LOC="48" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectInherit" Begin="929" End="959" LOC="30" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="str" Begin="961" End="965" LOC="4" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectComposition" Begin="966" End="1060" LOC="94" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="constructStruct" Begin="1020" End="1036" LOC="16" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="constructLocal" Begin="1039" End="1059" LOC="20" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectAggregate" Begin="1063" End="1109" LOC="46" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="DetectUsing" Begin="1111" End="1204" LOC="93" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="isObject" Begin="1192" End="1203" LOC="11" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="RelationshipAnalyzer" Begin="1205" End="1256" LOC="51" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="RelationshipAnalyzer" Begin="1210" End="1214" LOC="4" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\ParserCS\ScopeStack.cs">
+      <ANALYSIS NameSpace="ParserCS" Type="namespace" TypeName="ParserCS" Begin="55" End="204" LOC="149" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="ScopeStack" Begin="58" End="140" LOC="82" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="push" Begin="66" End="69" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="pop" Begin="72" End="86" LOC="14" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="getList" Begin="90" End="93" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="clear" Begin="94" End="97" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="lastPopped" Begin="123" End="126" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="clearPopList" Begin="127" End="130" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="display" Begin="133" End="139" LOC="6" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="Test1" Begin="142" End="203" LOC="61" />
+      <ANALYSIS NameSpace="ParserCS" Type="struct" TypeName="Elem" Begin="144" End="165" LOC="21" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="make" Begin="149" End="154" LOC="5" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="ToString" Begin="155" End="164" LOC="9" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Main" Begin="168" End="201" LOC="33" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\ScopeStack\ScopeStack.cs">
+      <ANALYSIS NameSpace="ParserCS" Type="namespace" TypeName="ParserCS" Begin="7" End="144" LOC="137" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="ScopeStack" Begin="9" End="76" LOC="67" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="push" Begin="16" End="19" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="pop" Begin="22" End="31" LOC="9" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="clear" Begin="34" End="37" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="lastPopped" Begin="63" End="66" LOC="3" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="display" Begin="69" End="75" LOC="6" />
+      <ANALYSIS NameSpace="ParserCS" Type="class" TypeName="Test" Begin="78" End="143" LOC="65" />
+      <ANALYSIS NameSpace="ParserCS" Type="struct" TypeName="Elem" Begin="80" End="101" LOC="21" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="make" Begin="85" End="90" LOC="5" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="ToString" Begin="91" End="100" LOC="9" />
+      <ANALYSIS NameSpace="ParserCS" Type="function" TypeName="Main" Begin="103" End="105" LOC="2" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\SemiEx\Semiexpresion.cs">
+      <ANALYSIS NameSpace="SemiEx" Type="namespace" TypeName="SemiEx" Begin="119" End="508" LOC="389" />
+      <ANALYSIS NameSpace="SemiEx" Type="class" TypeName="CSemiExp" Begin="121" End="506" LOC="385" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="CSemiExp" Begin="136" End="143" LOC="7" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="Equals" Begin="147" End="156" LOC="9" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="FindFirst" Begin="160" End="166" LOC="6" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="FindLast" Begin="169" End="175" LOC="6" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="Contains" Begin="178" End="181" LOC="3" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="GetHashCode" Begin="184" End="187" LOC="3" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="open" Begin="190" End="193" LOC="3" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="close" Begin="196" End="199" LOC="3" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="isTerminator" Begin="202" End="215" LOC="13" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="switch" Begin="204" End="214" LOC="10" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="get" Begin="218" End="225" LOC="7" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="IsPunc" Begin="228" End="231" LOC="3" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="IsOperatorPair" Begin="240" End="255" LOC="15" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="getSemi" Begin="258" End="284" LOC="26" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="insert" Begin="300" End="308" LOC="8" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="Add" Begin="311" End="315" LOC="4" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="initialize" Begin="325" End="331" LOC="6" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="flush" Begin="334" End="337" LOC="3" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="isComment" Begin="340" End="347" LOC="7" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="display" Begin="350" End="354" LOC="4" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="displayStr" Begin="357" End="367" LOC="10" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="clone" Begin="399" End="407" LOC="8" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="remove" Begin="410" End="418" LOC="8" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="findNext" Begin="431" End="439" LOC="8" />
+      <ANALYSIS NameSpace="SemiEx" Type="function" TypeName="Main" Begin="446" End="504" LOC="58" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\Documents\Visual Studio 2013\Projects\Code_Analyzer\CodeAnalysis\Tokeniser\Tokenizer.cs">
+      <ANALYSIS NameSpace="Tokeniser" Type="namespace" TypeName="Tokeniser" Begin="100" End="676" LOC="576" />
+      <ANALYSIS NameSpace="Tokeniser" Type="class" TypeName="CToker" Begin="103" End="675" LOC="572" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="CToker" Begin="125" End="130" LOC="5" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="openFile" Begin="133" End="145" LOC="12" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="openString" Begin="148" End="160" LOC="12" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="close" Begin="163" End="166" LOC="3" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="removeReturn" Begin="169" End="178" LOC="9" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="readLine" Begin="193" End="213" LOC="20" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="getLine" Begin="226" End="255" LOC="29" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="extract" Begin="262" End="297" LOC="35" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="mapToOldDoubleQuoteStyle" Begin="301" End="325" LOC="24" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="extractDQuote" Begin="329" End="359" LOC="30" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="extractSQuote" Begin="363" End="392" LOC="29" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="extractComment" Begin="396" End="443" LOC="47" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="eatCComment" Begin="446" End="476" LOC="30" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="IsGrammarPunctuation" Begin="480" End="487" LOC="7" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="eatAscii" Begin="490" End="504" LOC="14" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="eatPunctuationChar" Begin="507" End="512" LOC="5" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="fillBuffer" Begin="515" End="542" LOC="27" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="getTok" Begin="545" End="567" LOC="22" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="peekNextTok" Begin="570" End="577" LOC="7" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="pushBack" Begin="580" End="583" LOC="3" />
+      <ANALYSIS NameSpace="Tokeniser" Type="function" TypeName="Main" Begin="590" End="673" LOC="83" />
+    </FILE>
+  </Type>
+</BODY>

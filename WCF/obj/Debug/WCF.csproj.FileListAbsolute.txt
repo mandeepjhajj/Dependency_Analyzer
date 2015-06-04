@@ -1,0 +1,6 @@
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\WCF\bin\Debug\WCF.dll.config
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\WCF\bin\Debug\WCF.dll
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\WCF\bin\Debug\WCF.pdb
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\WCF\obj\Debug\WCF.csprojResolveAssemblyReference.cache
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\WCF\obj\Debug\WCF.dll
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\WCF\obj\Debug\WCF.pdb

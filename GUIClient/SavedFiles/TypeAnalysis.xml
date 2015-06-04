@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BODY>
+  <Type>
+    <FILE Name="C:\Users\Mandeep\documents\visual studio 2013\Projects\FawcettHelp\Examples\Examples\Program.cs">
+      <ANALYSIS NameSpace="Examples" Type="namespace" TypeName="Examples" Begin="8" End="21" LOC="13" />
+      <ANALYSIS NameSpace="Examples" Type="class" TypeName="Program" Begin="10" End="20" LOC="10" />
+      <ANALYSIS NameSpace="Examples" Type="function" TypeName="Main" Begin="12" End="19" LOC="7" />
+    </FILE>
+    <FILE Name="C:\Users\Mandeep\documents\visual studio 2013\Projects\FawcettHelp\Examples\Examples\Properties\AssemblyInfo.cs" />
+  </Type>
+</BODY>

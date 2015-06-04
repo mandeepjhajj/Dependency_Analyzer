@@ -1,0 +1,5 @@
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\Server2\bin\Debug\Server2.exe.config
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\Server2\bin\Debug\Server2.exe
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\Server2\bin\Debug\Server2.pdb
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\Server2\obj\Debug\Server2.exe
+C:\Users\Mandeep\documents\visual studio 2013\Projects\DependencyAnalyzer\Server2\obj\Debug\Server2.pdb

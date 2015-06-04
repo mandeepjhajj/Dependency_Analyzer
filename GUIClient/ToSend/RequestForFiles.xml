@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BODY>
+  <ListProjects>
+    <Dependency xmlns="http://localhost:4005">
+      <CodeAnalysis xmlns="" />
+    </Dependency>
+  </ListProjects>
+</BODY>
